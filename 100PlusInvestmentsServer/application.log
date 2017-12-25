@@ -1,0 +1,82 @@
+2017-12-25 14:20:05.296  INFO 18483 --- [main] c.SEM.InvestmentHoustSystem.Application  : Starting Application on Roies-MBP with PID 18483 (/Users/roie/Documents/workspace-sts-3.9.2.RELEASE/100PlusInvestmentsServer/bin started by roie in /Users/roie/Documents/workspace-sts-3.9.2.RELEASE/100PlusInvestmentsServer)
+2017-12-25 14:20:05.302  INFO 18483 --- [main] c.SEM.InvestmentHoustSystem.Application  : No active profile set, falling back to default profiles: default
+2017-12-25 14:20:05.458  INFO 18483 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca263c2: startup date [Mon Dec 25 14:20:05 IST 2017]; root of context hierarchy
+2017-12-25 14:20:07.601  INFO 18483 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-12-25 14:20:08.157  INFO 18483 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-12-25 14:20:08.175  INFO 18483 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-12-25 14:20:08.876  INFO 18483 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12c9b8b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:20:09.073  INFO 18483 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:20:09.075  INFO 18483 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:20:10.459  INFO 18483 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:20:10.535  INFO 18483 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-25 14:20:11.064  INFO 18483 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-25 14:20:11.067  INFO 18483 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-25 14:20:11.070  INFO 18483 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-25 14:20:11.216  INFO 18483 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-25 14:20:11.573  INFO 18483 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-25 14:20:13.290  INFO 18483 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-12-25 14:20:13.343  INFO 18483 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-12-25 14:20:13.438  INFO 18483 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:20:14.522  INFO 18483 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-12-25 14:20:15.706  INFO 18483 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2017-12-25 14:20:16.329  INFO 18483 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 14:20:16.351  INFO 18483 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-12-25 14:20:16.351  INFO 18483 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-12-25 14:20:16.352  INFO 18483 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2017-12-25 14:20:16.352  INFO 18483 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2017-12-25 14:20:16.352  INFO 18483 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-12-25 14:20:17.932  INFO 18483 --- [main] c.SEM.InvestmentHoustSystem.Application  : Started Application in 13.83 seconds (JVM running for 14.855)
+2017-12-25 14:22:46.151  INFO 18483 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca263c2: startup date [Mon Dec 25 14:20:05 IST 2017]; root of context hierarchy
+2017-12-25 14:22:46.165  INFO 18483 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2017-12-25 14:22:46.166  INFO 18483 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-12-25 14:22:46.182  INFO 18483 --- [Thread-3] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-12-25 14:22:46.183  INFO 18483 --- [Thread-3] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 0 subscriber(s).
+2017-12-25 14:22:46.183  INFO 18483 --- [Thread-3] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2017-12-25 14:22:46.184  INFO 18483 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2017-12-25 14:22:46.184  INFO 18483 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 14:22:46.185  INFO 18483 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:22:46.185  INFO 18483 --- [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-12-25 14:22:46.200  INFO 18483 --- [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-12-25 14:34:39.761  INFO 18569 --- [main] c.SEM.InvestmentHoustSystem.Application  : Starting Application on Roies-MBP with PID 18569 (/Users/roie/Documents/workspace-sts-3.9.2.RELEASE/100PlusInvestmentsServer/bin started by roie in /Users/roie/Documents/workspace-sts-3.9.2.RELEASE/100PlusInvestmentsServer)
+2017-12-25 14:34:39.766  INFO 18569 --- [main] c.SEM.InvestmentHoustSystem.Application  : No active profile set, falling back to default profiles: default
+2017-12-25 14:34:39.842  INFO 18569 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca263c2: startup date [Mon Dec 25 14:34:39 IST 2017]; root of context hierarchy
+2017-12-25 14:34:40.689  INFO 18569 --- [main] o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2017-12-25 14:34:40.951  INFO 18569 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2017-12-25 14:34:40.958  INFO 18569 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2017-12-25 14:34:41.300  INFO 18569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e96780e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:34:41.415  INFO 18569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:34:41.417  INFO 18569 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationGlobalProperties' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-25 14:34:42.017  INFO 18569 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:34:42.037  INFO 18569 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-25 14:34:42.123  INFO 18569 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-25 14:34:42.125  INFO 18569 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-12-25 14:34:42.127  INFO 18569 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-12-25 14:34:42.188  INFO 18569 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-25 14:34:42.326  INFO 18569 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-25 14:34:42.975  INFO 18569 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-12-25 14:34:43.002  INFO 18569 --- [main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2017-12-25 14:34:43.045  INFO 18569 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:34:43.366  INFO 18569 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-12-25 14:34:44.065  INFO 18569 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2017-12-25 14:34:44.572  INFO 18569 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 14:34:44.584  INFO 18569 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2017-12-25 14:34:44.585  INFO 18569 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-12-25 14:34:44.585  INFO 18569 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2017-12-25 14:34:44.585  INFO 18569 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+2017-12-25 14:34:44.585  INFO 18569 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-12-25 14:34:45.625  INFO 18569 --- [main] c.SEM.InvestmentHoustSystem.Application  : Started Application in 6.407 seconds (JVM running for 6.943)
+2017-12-25 14:35:21.560  INFO 18569 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca263c2: startup date [Mon Dec 25 14:34:39 IST 2017]; root of context hierarchy
+2017-12-25 14:35:21.562  INFO 18569 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2017-12-25 14:35:21.562  INFO 18569 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2017-12-25 14:35:21.563  INFO 18569 --- [Thread-3] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2017-12-25 14:35:21.563  INFO 18569 --- [Thread-3] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 0 subscriber(s).
+2017-12-25 14:35:21.563  INFO 18569 --- [Thread-3] o.s.i.endpoint.EventDrivenConsumer       : stopped _org.springframework.integration.errorLogger
+2017-12-25 14:35:21.565  INFO 18569 --- [Thread-3] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2017-12-25 14:35:21.566  INFO 18569 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 14:35:21.567  INFO 18569 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-25 14:35:21.567  INFO 18569 --- [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2017-12-25 14:35:21.576  INFO 18569 --- [Thread-3] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
